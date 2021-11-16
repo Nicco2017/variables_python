@@ -12,11 +12,17 @@
 # Ingrese dos palabras y arme combinaciones con ella
 print('Ingrese palabra 1:')
 palabra_1 = str(input())
+# palabra elejida VASELINA
 
 print('Ingrese palabra 2:')
 palabra_2 = str(input())
+# palabra elegida OSOS
 
 # De la primera palabra tome las primeras tres letras, utilice el operador :
 # De la segunda palabra tome las primeras dos letras, utilice el operador :
 # Formar una nueva palabra con los recortes solicitados
 # Imprima en pantalla los resultados
+parte_1 = palabra_1[0:3]
+parte_2 = palabra_2[0:2]
+palabra_3 = parte_1 + parte_2
+print(palabra_3)
