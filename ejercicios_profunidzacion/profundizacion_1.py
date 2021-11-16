@@ -31,3 +31,17 @@ E) Exponente/Potencia
 
 print('¡Nuestra primera calculadora!')
 # Empezar aquí la resolución del ejercicio
+num_1 = 25
+num_2 = 12
+
+suma = num_1 + num_2
+resta = num_1 - num_2
+multi = num_1 * num_2
+divi = num_1 / num_2
+pote = num_1 ** num_2
+
+print(suma)
+print(resta)
+print(multi)
+print(divi)
+print(pote)
